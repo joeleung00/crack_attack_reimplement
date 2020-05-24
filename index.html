@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Crack Attak</title>
+<style>
+#CANVAS{
+    display: block;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.start_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.end_button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+</style>
+
+</head>
+
+<body>
+    <script  src="src/game.js"></script>
+    <canvas id="CANVAS" width="800" height="650" style="background:url('./img/bg.png')"></canvas><br>
+    <button id="start" class="start_button" onclick="Main.gamestart()">Start</button>
+    <button id="end" class="end_button" onclick="Main.endgame()" style="visibility:hidden">Exit</button>
+    <p style="text-align:center">Wellcome to our game. Direction keys to move the cursor. Space to swap the blocks</p>
+
+
+</body>
+
+</html>
